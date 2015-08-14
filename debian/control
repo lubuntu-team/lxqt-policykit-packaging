@@ -48,22 +48,3 @@ Description: LXQt PolicyKit agent (debug symbols)
  The LXQt PolicyKit agent
  .
  This package contain debugging symbols.
-
-# ---- to be removed in 2016 ----
-
-Package: lxqt-policykit-qt5
-Depends: lxqt-policykit, ${misc:Depends}
-Priority: extra
-Section: oldlibs
-Architecture: all
-Description: lxqt-policykit transitional package
- Empty package to facilitate upgrades, can be safely removed.
-
-Package: lxqt-policykit-qt5-dbg
-Depends: lxqt-policykit-dbg, ${misc:Depends}
-Priority: extra
-Section: oldlibs
-Architecture: all
-Description: lxqt-policykit transitional package (dbg)
- Empty package to facilitate upgrades, can be safely removed.
-
