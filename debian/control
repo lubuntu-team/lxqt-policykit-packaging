@@ -32,10 +32,11 @@ Replaces: lxqt-policykit-qt5 (<< 0.9.0)
 Depends:
  ${misc:Depends},
  ${shlibs:Depends},
-Description: LXQt PolicyKit agent
- The LXQt PolicyKit agent
+Description: LXQt authentication agent for PolicyKit
+ The lxqt-policykit D-Bus session bus service that is used to
+ bring up authentication dialogs used for obtaining privileges.
  .
- This package contain the agent.
+ This package contains the LXQt policy kit authentication agent.
 
 Package: lxqt-policykit-dbg
 Architecture: any
@@ -46,7 +47,10 @@ Replaces: lxqt-policykit-qt5-dbg (<< 0.9.0)
 Depends:
  ${misc:Depends},
  lxqt-policykit (= ${binary:Version}),
-Description: LXQt PolicyKit agent (debug symbols)
- The LXQt PolicyKit agent
+Description: LXQt authentication agent for PolicyKit (debug symbols)
+ The lxqt-policykit D-Bus session bus service that is used to
+ bring up authentication dialogs used for obtaining privileges.
  .
- This package contain debugging symbols.
+ This package contains the LXQt policy kit authentication agent with
+ debugging symbols.
+
