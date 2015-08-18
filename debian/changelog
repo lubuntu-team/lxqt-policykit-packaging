@@ -1,5 +1,19 @@
-lxqt-policykit (0.9.0-1) unstable; urgency=low
+lxqt-policykit (0.9.0+20150807-1) unstable; urgency=medium
 
-  * Initial release (Closes: #747607)
+  [ Alf Gaida ]
+  * Initial release. (Closes: #747607)
+  * initial debian files.
+  * new release 0.9.0 source/options added packages renamed debian $foo
+    fixed.
+  * Some cleanup in debian $foo.
+  * some changes in debian $foo.
+  * drop transitional packages.
 
- -- Alf Gaida <agaida@siduction.org>  Sun, 15 Feb 2015 13:18:57 +0100
+  [ Yukiharu YABUKI ]
+  * Added two uploaders.
+  * Improve description.
+  * Change upload place. experimental->unstable.
+  * Added copyright holder for debian/*.
+  * Merging upstream 0.9.0+20150807.
+
+ -- Yukiharu YABUKI <yyabuki@debian.org>  Wed, 19 Aug 2015 06:52:13 +0900
