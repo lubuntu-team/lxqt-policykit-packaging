@@ -12,10 +12,10 @@ Build-Depends: cmake (>= 3.0.2),
                libx11-dev,
                pkg-config,
                libkf5windowsystem-dev,
-               liblxqt0-dev (>= 0.9.0+20150911),
+               liblxqt0-dev (>= 0.9.0+20151026),
                libpolkit-qt5-1-dev,
                libqt5x11extras5-dev,
-               libqt5xdg-dev,
+               libqt5xdg-dev (>= 1.3.0),
                qttools5-dev,
                qttools5-dev-tools
 Standards-Version: 3.9.6

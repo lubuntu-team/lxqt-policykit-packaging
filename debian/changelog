@@ -1,6 +1,6 @@
-lxqt-policykit (0.9.0+20150830-1) experimental; urgency=medium
+lxqt-policykit (0.9.0+20151024-1) experimental; urgency=medium
 
-  * Cherry-pick upstream version 0.9.0+20150830.
+  * Cherry-pick upstream version 0.9.0+20151024.
   * Removed breaks and replaces
   * Added upstring signing key and use it in watch file
   * Fixed control with cme fix
@@ -9,9 +9,9 @@ lxqt-policykit (0.9.0+20150830-1) experimental; urgency=medium
   * Added AUTHORS to docs
   * Cleaned up .gitignore
   * Switched to experimental because of LXQt namespace change
-  * Added minimum version for liblxqt0-dev (>= 0.9.0+20150911)
+  * Added minimum version for liblxqt and libqtxdg
 
- -- Alf Gaida <agaida@siduction.org>  Fri, 25 Sep 2015 01:26:13 +0200
+ -- Alf Gaida <agaida@siduction.org>  Fri, 30 Oct 2015 22:16:29 +0100
 
 lxqt-policykit (0.9.0+20150807-1) unstable; urgency=medium
 
