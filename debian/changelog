@@ -1,13 +1,20 @@
+lxqt-policykit (0.9.0+20150807-2) unstable; urgency=medium
+
+  * Removed breaks and replaces
+  * Fixed control with cme fix
+  * Added linker flags -Wl,--as-needed
+  * Removed unused GPL2+ from copyright
+  * Added AUTHORS to docs
+  * Cleaned up .gitignore
+  * Removed not needed minimum versions
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 12 Nov 2015 01:34:20 +0100
+
 lxqt-policykit (0.9.0+20150807-1) unstable; urgency=medium
 
   [ Alf Gaida ]
   * Initial release. (Closes: #747607)
   * initial debian files.
-  * new release 0.9.0 source/options added packages renamed debian $foo
-    fixed.
-  * Some cleanup in debian $foo.
-  * some changes in debian $foo.
-  * drop transitional packages.
 
   [ Yukiharu YABUKI ]
   * Added two uploaders.
