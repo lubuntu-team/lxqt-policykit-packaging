@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ru_RU">
+<TS version="2.1" language="el">
 <context>
     <name>LXQtPolicykit::PolicykitAgent</name>
     <message>
         <location filename="../src/policykitagent.cpp" line="71"/>
         <location filename="../src/policykitagent.cpp" line="149"/>
         <source>PolicyKit Information</source>
-        <translation>Информация PolicyKit</translation>
+        <translation>Πληροφορίες PolicyKit</translation>
     </message>
     <message>
         <location filename="../src/policykitagent.cpp" line="71"/>
         <source>Another authentization in progress. Please try it again later.</source>
-        <translation type="unfinished"></translation>
+        <translation>Μια άλλη ταυτοποίηση είναι σε εξέλιξη. Παρακαλώ προσπαθήστε ξανά αργότερα.</translation>
     </message>
     <message>
         <location filename="../src/policykitagent.cpp" line="132"/>
         <source>Authorization Failed</source>
-        <translation>Авторизация не удалась</translation>
+        <translation>Η ταυτοποίηση απέτυχε</translation>
     </message>
     <message>
         <location filename="../src/policykitagent.cpp" line="132"/>
         <source>Authorization failed for some reason</source>
-        <translation>Авторизация не удалась по какой-то причине</translation>
+        <translation>Η ταυτοποίηση για κάποια αιτία απέτυχε</translation>
     </message>
     <message>
         <location filename="../src/policykitagent.cpp" line="144"/>
         <source>PolicyKit Error</source>
-        <translation>Ошибка PolicyKit</translation>
+        <translation>Σφάλμα PolicyKit</translation>
     </message>
 </context>
 <context>
@@ -35,17 +35,17 @@
     <message>
         <location filename="../src/policykitagentgui.ui" line="14"/>
         <source>Authentication Required</source>
-        <translation>Требуется аутентификация</translation>
+        <translation>Απαιτείται ταυτοποίηση</translation>
     </message>
     <message>
         <location filename="../src/policykitagentgui.ui" line="55"/>
         <source>Identity:</source>
-        <translation>Идентификация:</translation>
+        <translation>Ταυτότητα:</translation>
     </message>
     <message>
         <location filename="../src/policykitagentgui.ui" line="65"/>
         <source>Password:</source>
-        <translation>Пароль:</translation>
+        <translation>Κωδικός πρόσβασης:</translation>
     </message>
 </context>
 </TS>
