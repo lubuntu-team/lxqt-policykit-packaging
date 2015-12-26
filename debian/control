@@ -32,16 +32,3 @@ Description: LXQt authentication agent for PolicyKit
  bring up authentication dialogs used for obtaining privileges.
  .
  This package contains the LXQt policy kit authentication agent.
-
-Package: lxqt-policykit-dbg
-Architecture: any
-Section: debug
-Priority: extra
-Depends: ${misc:Depends},
-         lxqt-policykit (= ${binary:Version})
-Description: LXQt authentication agent for PolicyKit (debug symbols)
- The lxqt-policykit D-Bus session bus service that is used to
- bring up authentication dialogs used for obtaining privileges.
- .
- This package contains the LXQt policy kit authentication agent with
- debugging symbols.

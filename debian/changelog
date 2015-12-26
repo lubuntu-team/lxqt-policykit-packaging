@@ -1,3 +1,9 @@
+lxqt-policykit (0.10.0-3) unstable; urgency=medium
+
+  * Remove dbg package in favor of dbgsym.
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 26 Dec 2015 20:45:31 +0100
+
 lxqt-policykit (0.10.0-2) unstable; urgency=medium
 
   * Merge from experimental.
