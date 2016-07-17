@@ -1,3 +1,21 @@
+lxqt-policykit (0.10.0-4) unstable; urgency=medium
+
+  * Preparing the upcoming release, switch to experimental
+  * Added build dependency libqt5xdgiconloader-dev, set
+    minimum versions
+  * Bump Standards to 3.9.8, no changes needed
+  * Fixed VCS fields, using https and plain /git/
+  * Added Recommends lxqt-policykit-l10n
+  * Fixed copyright Format field
+  * Bumped copyright years
+  * Added translation control to rules
+  * Set CMAKE_BUILD_TYPE=RelWithDebInfo
+  * Exported LC_ALL=C.UTF-8, make builds reproducible
+  * Added README.md to docs
+  * Added manpages
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 18 Jul 2016 00:24:10 +0200
+
 lxqt-policykit (0.10.0-3) unstable; urgency=medium
 
   * Remove dbg package in favor of dbgsym.
