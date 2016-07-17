@@ -1,5 +1,6 @@
-lxqt-policykit (0.10.0-4) unstable; urgency=medium
+lxqt-policykit (0.10.96~7-g29e3b89-1) experimental; urgency=medium
 
+  * Cherry-picking upstream version 0.10.96~7-g29e3b89.
   * Preparing the upcoming release, switch to experimental
   * Added build dependency libqt5xdgiconloader-dev, set
     minimum versions
@@ -14,7 +15,7 @@ lxqt-policykit (0.10.0-4) unstable; urgency=medium
   * Added README.md to docs
   * Added manpages
 
- -- Alf Gaida <agaida@siduction.org>  Mon, 18 Jul 2016 00:24:10 +0200
+ -- Alf Gaida <agaida@siduction.org>  Mon, 18 Jul 2016 00:42:38 +0200
 
 lxqt-policykit (0.10.0-3) unstable; urgency=medium
 
