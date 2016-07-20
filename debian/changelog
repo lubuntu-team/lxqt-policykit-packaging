@@ -1,3 +1,14 @@
+lxqt-policykit (0.10.0-4) unstable; urgency=medium
+
+  * Bump Standards to 3.9.8, no changes needed
+  * Fixed VCS fields, using https and plain /git/ and point to the
+    right branch 
+  * Fixed copyright Format field
+  * Exported LC_ALL=C.UTF-8, make builds reproducible
+  * Added hardening options
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 20 Jul 2016 16:31:07 +0200
+
 lxqt-policykit (0.10.0-3) unstable; urgency=medium
 
   * Remove dbg package in favor of dbgsym.
