@@ -22,8 +22,8 @@ Build-Depends: debhelper (>= 9),
                qttools5-dev,
                qttools5-dev-tools
 Standards-Version: 3.9.8
-Vcs-Browser: https://anonscm.debian.org/git/pkg-lxqt/lxqt-policykit.git
-Vcs-Git: https://anonscm.debian.org/git/pkg-lxqt/lxqt-policykit.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-lxqt/lxqt-policykit.git/?h=debian/experimental
+Vcs-Git: https://anonscm.debian.org/git/pkg-lxqt/lxqt-policykit.git -b debian/experimental
 Homepage: https://github.com/lxde/lxqt-policykit
 
 Package: lxqt-policykit
