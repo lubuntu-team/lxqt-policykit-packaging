@@ -1,4 +1,4 @@
-lxqt-policykit (0.11.0-1) unstable; urgency=medium
+lxqt-policykit (0.11.0-2) experimental; urgency=medium
 
   * Cherry-picking upstream release 0.11.0
   * Bumped compat to 10
@@ -8,7 +8,7 @@ lxqt-policykit (0.11.0-1) unstable; urgency=medium
   * Bumped minimum version liblxqt-dev (>= 0.11.0)
   * Removed --parallel from rules, standard in compat 10
 
- -- Alf Gaida <agaida@siduction.org>  Sun, 25 Sep 2016 15:52:44 +0200
+ -- Alf Gaida <agaida@siduction.org>  Mon, 26 Sep 2016 01:29:24 +0200
 
 lxqt-policykit (0.10.96~7-g29e3b89-2) experimental; urgency=medium
 
