@@ -25,8 +25,9 @@
  *
  * END_COMMON_COPYRIGHT_HEADER */
 
-#include <XdgIcon>
+#include <QIcon>
 #include "policykitagentgui.h"
+#include <unistd.h>
 
 namespace LXQtPolicykit
 {
@@ -44,35 +45,62 @@ PolicykitAgentGUI::PolicykitAgentGUI(const QString &actionId,
     Q_UNUSED(details); // it seems too confusing for end user (=me)
 
     messageLabel->setText(message);
-    iconLabel->setPixmap(XdgIcon::fromTheme(iconName).pixmap(64, 64));
+    QIcon icon = QIcon::fromTheme(iconName);
+    if (icon.isNull())
+        icon = QIcon::fromTheme(QLatin1String("dialog-question"));
+    iconLabel->setPixmap(icon.pixmap(64, 64));
 
+    const uid_t current_uid = getuid();
+    int current_user_index = -1;
     foreach (PolkitQt1::Identity identity, identities)
     {
-        m_identityMap[identity.toString()] = identity;
+        const int i = identityComboBox->count(); // index of the added item
         identityComboBox->addItem(identity.toString());
+        PolkitQt1::UnixUserIdentity const * const u_id = static_cast<PolkitQt1::UnixUserIdentity *>(&identity);
+        if (u_id != nullptr && u_id->uid() == current_uid)
+            current_user_index = i;
     }
+    if (current_user_index != -1)
+        identityComboBox->setCurrentIndex(current_user_index);
+    connect(identityComboBox, static_cast<void (QComboBox::*)(int)>(&QComboBox::currentIndexChanged), this, &PolicykitAgentGUI::onIdentityChanged);
+    passwordEdit->setFocus(Qt::OtherFocusReason);
 }
 
 void PolicykitAgentGUI::setPrompt(const PolkitQt1::Identity &identity, const QString &text, bool echo)
 {
-    int ix = identityComboBox->findText(identity.toString());
+    const int ix = identityComboBox->findText(identity.toString());
     if (ix != -1)
     {
-        identityComboBox->setCurrentIndex(ix);
-        passwordEdit->setFocus(Qt::OtherFocusReason);
+        identityComboBox->setItemData(ix, text, RolePromptText);
+        identityComboBox->setItemData(ix, echo, RolePromptEcho);
+
+        if (ix == identityComboBox->currentIndex())
+        {
+            promptLabel->setText(text);
+            passwordEdit->setEchoMode(echo ? QLineEdit::Normal : QLineEdit::Password);
+        }
     }
-    promptLabel->setText(text);
-    passwordEdit->setEchoMode(echo ? QLineEdit::Normal : QLineEdit::Password);
 }
 
-PolkitQt1::Identity PolicykitAgentGUI::identity()
+QString PolicykitAgentGUI::identity()
 {
-    return m_identityMap[identityComboBox->currentText()];
+    Q_ASSERT(identityComboBox->currentIndex() != -1);
+    return identityComboBox->currentText();
 }
 
 QString PolicykitAgentGUI::response()
 {
     return passwordEdit->text();
+}
+
+void PolicykitAgentGUI::onIdentityChanged(int index)
+{
+    QVariant text = identityComboBox->itemData(index, RolePromptText);
+    QVariant echo = identityComboBox->itemData(index, RolePromptEcho);
+    if (text != QVariant{})
+        promptLabel->setText(text.toString());
+    if (echo != QVariant{})
+        passwordEdit->setEchoMode(echo.toBool() ? QLineEdit::Normal : QLineEdit::Password);
 }
 
 } // namespace
