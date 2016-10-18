@@ -1,3 +1,23 @@
+lxqt-policykit (0.11.0-3) unstable; urgency=medium
+
+  * Cherry-picking upstream release 0.11.0
+  * Sync debian foo with experimental
+  * Bumped compat to 10
+  * Removed --parallel from rules, standard in compat 10
+  * Bumped minimum version debhelper (>= 10)
+  * Bumped minimum version liblxqt-dev (>= 0.11.0)
+  * Bumped minimum version libqtxdg-dev (>= 2.0.0)
+  * Added build dependency libqt5svg5-dev
+  * Added build dependency libqt5xdgiconloader-dev (>= 2.0.0)
+  * Added Recommends lxqt-policykit-l10n
+  * Bumped copyright years
+  * Added translation control to rules
+  * Set CMAKE_BUILD_TYPE=RelWithDebInfo
+  * Added README.md to docs
+  * Added manpages
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 18 Oct 2016 17:04:36 +0200
+
 lxqt-policykit (0.10.0-4) unstable; urgency=medium
 
   * Bump Standards to 3.9.8, no changes needed
