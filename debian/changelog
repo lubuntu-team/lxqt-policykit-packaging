@@ -1,3 +1,9 @@
+lxqt-policykit (0.11.0-4) unstable; urgency=medium
+
+  * Provides: polkit-1-auth-agent (Closes: #842268)
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 06 Nov 2016 20:29:28 +0100
+
 lxqt-policykit (0.11.0-3) unstable; urgency=medium
 
   * Cherry-picking upstream release 0.11.0

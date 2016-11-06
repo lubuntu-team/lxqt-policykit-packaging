@@ -30,6 +30,7 @@ Architecture: any
 Depends: ${misc:Depends},
          ${shlibs:Depends}
 Recommends: lxqt-policykit-l10n
+Provides: polkit-1-auth-agent
 Description: LXQt authentication agent for PolicyKit
  The lxqt-policykit D-Bus session bus service that is used to
  bring up authentication dialogs used for obtaining privileges.
