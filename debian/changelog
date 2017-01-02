@@ -1,4 +1,4 @@
-lxqt-policykit (0.11.1-1) UNRELEASED; urgency=medium
+lxqt-policykit (0.11.1-1) unstable; urgency=medium
 
   * Cherry-picking upstream release 0.11.1.
   * Removed some build dependencies:
@@ -12,7 +12,7 @@ lxqt-policykit (0.11.1-1) UNRELEASED; urgency=medium
   * Bumped build dependency liblxqt0-dev (>= 0.11.1)
   * Bumped years in d/copyright
 
- -- Alf Gaida <agaida@siduction.org>  Mon, 02 Jan 2017 14:41:24 +0100
+ -- Alf Gaida <agaida@siduction.org>  Mon, 02 Jan 2017 14:49:31 +0100
 
 lxqt-policykit (0.11.0-4) unstable; urgency=medium
 
