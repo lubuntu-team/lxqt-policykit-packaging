@@ -1,3 +1,12 @@
+lxqt-policykit (0.11.1-2) unstable; urgency=medium
+
+  * Bump Standards to 4.0.0 - no changes needed
+  * lxqt-policykit depends on lxqt-session, it will not even start without
+    the session (Closes: #866876)
+  * Added Suggests: lxqt | lxqt-core
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 02 Jul 2017 14:35:20 +0200
+
 lxqt-policykit (0.11.1-1) unstable; urgency=medium
 
   * Cherry-picking upstream release 0.11.1.
