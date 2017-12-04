@@ -8,15 +8,15 @@ Section: x11
 Priority: optional
 Build-Depends: debhelper (>= 10),
                libkf5windowsystem-dev,
-               liblxqt0-dev (>= 0.11.1),
+               liblxqt0-dev (>= 0.12.0),
                libpolkit-agent-1-dev,
                libpolkit-qt5-1-dev,
                libqt5svg5-dev,
                libqt5x11extras5-dev,
                libx11-dev
-Standards-Version: 4.0.0
-Vcs-Browser: https://anonscm.debian.org/cgit/pkg-lxqt/lxqt-policykit.git/?h=debian/sid
-Vcs-Git: https://anonscm.debian.org/git/pkg-lxqt/lxqt-policykit.git -b debian/sid
+Standards-Version: 4.1.1
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-lxqt/lxqt-policykit.git/?h=debian/experimental
+Vcs-Git: https://anonscm.debian.org/git/pkg-lxqt/lxqt-policykit.git -b debian/experimental
 Homepage: https://github.com/lxde/lxqt-policykit
 
 Package: lxqt-policykit
@@ -26,6 +26,8 @@ Depends: ${misc:Depends},
          lxqt-session
 Recommends: lxqt-policykit-l10n
 Suggests: lxqt | lxqt-core
+Breaks: lxqt-common (<< 0.12.0)
+Replaces: lxqt-common (<< 0.12.0)
 Provides: polkit-1-auth-agent
 Description: LXQt authentication agent for PolicyKit
  The lxqt-policykit D-Bus session bus service that is used to
