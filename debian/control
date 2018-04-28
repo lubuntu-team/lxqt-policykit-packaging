@@ -6,7 +6,7 @@ Uploaders: Alf Gaida <agaida@siduction.org>,
            Yukiharu YABUKI <yyabuki@debian.org>
 Section: x11
 Priority: optional
-Build-Depends: debhelper (>= 10),
+Build-Depends: debhelper (>= 11~),
                libkf5windowsystem-dev,
                liblxqt0-dev (>= 0.12.0),
                libpolkit-agent-1-dev,
@@ -14,10 +14,10 @@ Build-Depends: debhelper (>= 10),
                libqt5svg5-dev,
                libqt5x11extras5-dev,
                libx11-dev
-Standards-Version: 4.1.2
-Vcs-Browser: https://anonscm.debian.org/cgit/pkg-lxqt/lxqt-policykit.git
-Vcs-Git: https://anonscm.debian.org/git/pkg-lxqt/lxqt-policykit.git
-Homepage: https://github.com/lxde/lxqt-policykit
+Standards-Version: 4.1.4
+Vcs-Browser: https://salsa.debian.org/lxqt-team/lxqt-policykit
+Vcs-Git: https://salsa.debian.org/lxqt-team/lxqt-policykit.git
+Homepage: https://github.com/lxqt/lxqt-policykit
 
 Package: lxqt-policykit
 Architecture: any

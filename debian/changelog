@@ -1,7 +1,19 @@
+lxqt-policykit (0.12.0-4) unstable; urgency=medium
+
+  * Bumped compat to 11
+  * Bumped debhelper to >= 11~
+  * Bumped Standards to 4.1.4, no changes needed
+  * Changed VCS fields for salsa
+  * Changed Homepage, Source and watch to lxqt
+  * Bumped years in copyright
+  * Removed trailing whitespaces in changelog
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 28 Apr 2018 15:43:31 +0200
+
 lxqt-policykit (0.12.0-3) unstable; urgency=medium
 
   * Bumped Standards to 4.1.2, no changes needed
-  * Removed branch from VCS fields 
+  * Removed branch from VCS fields
 
  -- Alf Gaida <agaida@siduction.org>  Thu, 14 Dec 2017 21:44:08 +0100
 
@@ -40,7 +52,7 @@ lxqt-policykit (0.11.1-1) unstable; urgency=medium
     -libx11-dev
     -pkg-config
     -qttools5-dev
-    -qttools5-dev-tools 
+    -qttools5-dev-tools
   * Bumped build dependency liblxqt0-dev (>= 0.11.1)
   * Bumped years in d/copyright
 
@@ -76,7 +88,7 @@ lxqt-policykit (0.10.0-4) unstable; urgency=medium
 
   * Bump Standards to 3.9.8, no changes needed
   * Fixed VCS fields, using https and plain /git/ and point to the
-    right branch 
+    right branch
   * Fixed copyright Format field
   * Exported LC_ALL=C.UTF-8, make builds reproducible
   * Added hardening options
