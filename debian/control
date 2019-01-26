@@ -7,7 +7,7 @@ Uploaders: Alf Gaida <agaida@siduction.org>,
            Yukiharu YABUKI <yyabuki@debian.org>
 Section: x11
 Priority: optional
-Build-Depends: debhelper (>= 11),
+Build-Depends: debhelper (>= 12),
                libkf5windowsystem-dev,
                liblxqt0-dev (>= 0.13.0),
                libpolkit-agent-1-dev,
