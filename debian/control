@@ -9,7 +9,7 @@ Section: x11
 Priority: optional
 Build-Depends: debhelper-compat (= 12),
                libkf5windowsystem-dev,
-               liblxqt0-dev (>= 0.14.1~),
+               liblxqt0-dev (>= 0.15.0),
                libpolkit-agent-1-dev,
                libpolkit-qt5-1-dev,
                libqt5svg5-dev,
