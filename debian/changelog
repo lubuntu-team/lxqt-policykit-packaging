@@ -1,3 +1,21 @@
+lxqt-policykit (0.16.0-1ubuntu1) hirsute; urgency=medium
+
+  * New upstream version.
+  * Bump debhelper-compat to 13.
+
+ -- Raman Sarda <theloudspeaker@disroot.org>  Mon, 22 Feb 2021 01:05:03 +0530
+
+lxqt-policykit (0.16.0-1) unstable; urgency=medium
+
+  [ Alf Gaida ]
+  * Switched to gbp
+  * Bumped Standards-Version to 4.4.0, no changes needed
+
+  [ Andrew Lee (李健秋) ]
+  * New upstream release.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Wed, 06 Jan 2021 17:49:18 +0800
+
 lxqt-policykit (0.15.0-0ubuntu1) groovy; urgency=medium
 
   * New upstream release.
