@@ -1,3 +1,14 @@
+lxqt-policykit (0.17.0-0ubuntu1) impish; urgency=medium
+
+  * New upstream release 0.17.0 (LP: #1875774)
+  * Update debian/control
+    - Bump Standards-Version to 4.5.1
+    - Use liblxqt0-dev 0.17.0
+    - Extend lxqt-policykit-l10n package description
+  * Update debian/copyright
+
+ -- apt-ghetto <apt-ghetto@protonmail.com>  Fri, 13 Aug 2021 14:41:25 +0200
+
 lxqt-policykit (0.16.0-1ubuntu1) hirsute; urgency=medium
 
   * New upstream version.
