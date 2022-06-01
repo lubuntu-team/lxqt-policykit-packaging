@@ -27,8 +27,6 @@ Architecture: any
 Depends: lxqt-session, ${misc:Depends}, ${shlibs:Depends}
 Recommends: lxqt-policykit-l10n
 Suggests: lxqt | lxqt-core
-Breaks: lxqt-common (<< 0.12.0)
-Replaces: lxqt-common (<< 0.12.0)
 Provides: polkit-1-auth-agent
 Description: LXQt authentication agent for PolicyKit
  The lxqt-policykit D-Bus session bus service that is used to
@@ -41,8 +39,6 @@ Architecture: all
 Multi-Arch: foreign
 Section: localization
 Depends: qttranslations5-l10n, ${misc:Depends}
-Breaks: lxqt-policykit (<< 0.11.0)
-Replaces: lxqt-policykit (<< 0.11.0)
 Description: Language package for lxqt-policykit
  The l10n files for lxqt-policykit
  .
