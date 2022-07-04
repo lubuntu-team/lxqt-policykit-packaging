@@ -6,6 +6,7 @@ lxqt-policykit (1.1.0-0ubuntu1~ppa1) jammy; urgency=medium
   * Added "Rules-Requires-Root: no" to debian/control.
   * Removed obsolete "-Wl,--as-needed" linker flag.
   * Removed redundant "Repository-Browser" field from d/control/metadata.
+  * Removed trailing whitespace from changelog.
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Mon, 04 Jul 2022 11:48:54 -0500
 
@@ -264,4 +265,3 @@ lxqt-policykit (0.9.0+20150807-1) unstable; urgency=medium
   * Merging upstream 0.9.0+20150807.
 
  -- Yukiharu YABUKI <yyabuki@debian.org>  Wed, 19 Aug 2015 06:52:13 +0900
-
