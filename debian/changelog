@@ -2,6 +2,7 @@ lxqt-policykit (1.1.0-0ubuntu1~ppa1) jammy; urgency=medium
 
   * Backport to Jammy.
   * Bumped Standards-Version to 4.6.1, no changes necessary.
+  * Updated copyright file.
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Mon, 04 Jul 2022 11:48:54 -0500
 
