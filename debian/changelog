@@ -4,6 +4,7 @@ lxqt-policykit (1.1.0-0ubuntu1~ppa1) jammy; urgency=medium
   * Bumped Standards-Version to 4.6.1, no changes necessary.
   * Updated copyright file.
   * Added "Rules-Requires-Root: no" to debian/control.
+  * Removed obsolete "-Wl,--as-needed" linker flag.
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Mon, 04 Jul 2022 11:48:54 -0500
 
