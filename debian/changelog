@@ -5,6 +5,7 @@ lxqt-policykit (1.1.0-0ubuntu1~ppa1) jammy; urgency=medium
   * Updated copyright file.
   * Added "Rules-Requires-Root: no" to debian/control.
   * Removed obsolete "-Wl,--as-needed" linker flag.
+  * Removed redundant "Repository-Browser" field from d/control/metadata.
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Mon, 04 Jul 2022 11:48:54 -0500
 
