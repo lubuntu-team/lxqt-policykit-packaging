@@ -1,4 +1,4 @@
-lxqt-policykit (1.2.0-0ubuntu1) UNRELEASED; urgency=medium
+lxqt-policykit (1.2.0-0ubuntu1) lunar; urgency=medium
 
   * New upstream release.
   * Fix the watch file, for real this time.
@@ -8,7 +8,7 @@ lxqt-policykit (1.2.0-0ubuntu1) UNRELEASED; urgency=medium
   * Lintian doesn't like extra "r"s in upstream metadata.
   * Brief copyright update.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 18 Nov 2022 17:41:46 -0600
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 18 Nov 2022 17:50:24 -0600
 
 lxqt-policykit (1.1.0-0ubuntu1) kinetic; urgency=medium
 
