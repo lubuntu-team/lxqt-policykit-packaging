@@ -4,6 +4,7 @@ lxqt-policykit (1.2.0-1ubuntu1) lunar; urgency=medium
   * Added 'Rules-Requires-Root: no' to debian/control.
   * Bumped Standards-Version to 4.6.2, no changes necessary.
   * Removed obsolete '-Wl,--as-needed' linker flag.
+  * Removed obsolete override_dh_missing section of debian/rules.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Wed, 15 Feb 2023 12:03:37 -0600
 
