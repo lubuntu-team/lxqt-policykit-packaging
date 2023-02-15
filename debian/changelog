@@ -6,6 +6,7 @@ lxqt-policykit (1.2.0-1ubuntu1) lunar; urgency=medium
   * Removed obsolete '-Wl,--as-needed' linker flag.
   * Removed obsolete override_dh_missing section of debian/rules.
   * Updated copyright file.
+  * Removed trailing whitespace from changelog.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Wed, 15 Feb 2023 12:03:37 -0600
 
@@ -276,4 +277,3 @@ lxqt-policykit (0.9.0+20150807-1) unstable; urgency=medium
   * Merging upstream 0.9.0+20150807.
 
  -- Yukiharu YABUKI <yyabuki@debian.org>  Wed, 19 Aug 2015 06:52:13 +0900
-
