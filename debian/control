@@ -20,6 +20,7 @@ Vcs-Browser: https://git.lubuntu.me/Lubuntu/lxqt-policykit-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/lxqt-policykit-packaging.git
 XS-Debian-Vcs-Browser: https://salsa.debian.org/lxqt-team/lxqt-policykit
 XS-Debian-Vcs-Git: https://salsa.debian.org/lxqt-team/lxqt-policykit.git
+Rules-Requires-Root: no
 Homepage: https://github.com/lxqt/lxqt-policykit
 
 Package: lxqt-policykit
