@@ -1,6 +1,6 @@
 Source: lxqt-policykit
 Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
-XSBC-Original-Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Original-Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
 Uploaders: Alf Gaida <agaida@siduction.org>,
            ChangZhuo Chen (陳昌倬) <czchen@debian.org>,
            Andrew Lee (李健秋) <ajqlee@debian.org>,
@@ -17,8 +17,8 @@ Build-Depends: debhelper-compat (= 13),
 Standards-Version: 4.7.0
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/lxqt-policykit-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/lxqt-policykit-packaging.git
-XS-Debian-Vcs-Browser: https://salsa.debian.org/lxqt-team/lxqt-policykit
-XS-Debian-Vcs-Git: https://salsa.debian.org/lxqt-team/lxqt-policykit.git
+Debian-Vcs-Browser: https://salsa.debian.org/lxqt-team/lxqt-policykit
+Debian-Vcs-Git: https://salsa.debian.org/lxqt-team/lxqt-policykit.git
 Rules-Requires-Root: no
 Homepage: https://github.com/lxqt/lxqt-policykit
 
