@@ -6,7 +6,6 @@ Uploaders: Alf Gaida <agaida@siduction.org>,
            Andrew Lee (李健秋) <ajqlee@debian.org>,
            Yukiharu YABUKI <yyabuki@debian.org>
 Section: x11
-Priority: optional
 Build-Depends: debhelper-compat (= 13),
                libkf6windowsystem-dev,
                liblxqt2-dev (>= 2.3.0),
@@ -14,7 +13,7 @@ Build-Depends: debhelper-compat (= 13),
                libpolkit-qt6-1-dev,
                libx11-dev,
                qt6-svg-dev (>= 6.6.0)
-Standards-Version: 4.7.3
+Standards-Version: 4.7.4
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/lxqt-policykit-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/lxqt-policykit-packaging.git
 Debian-Vcs-Browser: https://salsa.debian.org/lxqt-team/lxqt-policykit
