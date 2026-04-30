@@ -8,7 +8,7 @@ Uploaders: Alf Gaida <agaida@siduction.org>,
 Section: x11
 Build-Depends: debhelper-compat (= 13),
                libkf6windowsystem-dev,
-               liblxqt2-dev (>= 2.3.0),
+               liblxqt2-dev (>= 2.4.0),
                libpolkit-agent-1-dev,
                libpolkit-qt6-1-dev,
                libx11-dev,
